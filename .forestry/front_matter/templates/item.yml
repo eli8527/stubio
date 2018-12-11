@@ -22,9 +22,6 @@ fields:
 - type: textarea
   name: buy_html
   label: Buy HTML
-- type: boolean
-  name: show
-  label: Show
 pages:
 - _store/unique-clothes-t-shirt-orange-white-m.md
 - _store/unique-clothes-t-shirt-white-navy-m.md
