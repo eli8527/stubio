@@ -6,6 +6,13 @@ fields:
 - type: text
   name: title
   label: Title
+- type: field_group_list
+  name: images
+  label: Images
+  fields:
+  - type: text
+    name: image_url
+    label: Image URL
 - type: textarea
   name: description
   label: Description
@@ -19,13 +26,6 @@ fields:
 - type: textarea
   name: buy_html
   label: Buy HTML
-- type: field_group_list
-  name: images
-  label: Images
-  fields:
-  - type: text
-    name: image_url
-    label: Image URL
 pages:
 - _store/unique-clothes-t-shirt-white-navy-m.md
 - _store/unique-clothes-t-shirt-orange-white-m.md
