@@ -13,3 +13,6 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: number
+  name: price
+  label: Price
