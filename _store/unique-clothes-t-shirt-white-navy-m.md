@@ -7,6 +7,5 @@ description: ''
 price: 35
 buy_html: ''
 show: false
-published: false
 
 ---
