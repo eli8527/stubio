@@ -46,6 +46,5 @@ buy_html: |-
       })();
       /*]]>*/
       </script>
-published: false
 
 ---
