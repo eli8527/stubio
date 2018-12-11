@@ -1,7 +1,4 @@
 ---
-- name: 750 sq ft — Marbled Ornaments
-  items:
-  - _store/red-green-blue-white.md
 - name: 750 sq ft — Unique Clothes
   items:
   - _store/unique-clothes-t-shirt-orange-white-m.md
@@ -15,3 +12,6 @@
   - _store/unique-clothes-turtleneck-yellow-purple-s.md
   - _store/unique-clothes-sweatshirt-blue-grey-l.md
   description: "<p></p>"
+- name: 750 sq ft — Marbled Ornaments
+  items:
+  - _store/red-green-blue-white.md
