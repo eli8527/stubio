@@ -8,15 +8,15 @@ fields:
   label: Header
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: html-blocks
 - type: textarea
   name: footer
   label: Footer
   config:
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
 pages:
 - index.md
