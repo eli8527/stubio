@@ -21,6 +21,7 @@ fields:
       source:
         type: pages
         section: collection
+        file: _collection/750.md
       required: true
     label: Collection
     default: _collection/750.md
