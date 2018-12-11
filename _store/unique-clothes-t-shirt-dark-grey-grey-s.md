@@ -2,7 +2,7 @@
 title: Unique Clothes T-Shirt Dark Grey/Grey (S)
 date: 2018-12-11 06:35:57 +0000
 images:
-- image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/m_navy_black.jpg
+- image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/s_darkgrey_grey.jpg
 description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is produced
   in a handful of color combinations based on UNIQLO's packaged T-Shirts. These color
   pairs are hand picked and sewn and are produced in an initial limited edition of
