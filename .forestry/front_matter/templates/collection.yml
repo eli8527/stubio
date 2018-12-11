@@ -1,0 +1,17 @@
+---
+label: Collection
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: collection_name
+  label: Collection Name
+  config:
+    required: true
+- type: textarea
+  name: collection_information
+  label: Collection Information
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
