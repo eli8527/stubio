@@ -23,8 +23,8 @@ layout: default
                   {{item_meta.title}}
                 </div>
                 <div class="item-cost">
-                  {% if item_meta.out_of_stock %}
-                    Out of stock
+                  {% if item_meta.sold_out %}
+                    <s>${{item_meta.price}}</s> Sold
                   {% else %}
                     ${{item_meta.price}}
                   {% endif %}

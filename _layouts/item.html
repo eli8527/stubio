@@ -16,7 +16,11 @@ layout: default
         {{page.title}}
       </div>
       <div class="item-price">
-        ${{page.price}}
+        {% if page.sold_out %}
+          <s>${{page.price}}</s> Sold
+        {% else %}
+          ${{page.price}}
+        {% endif %}
       </div>
       <div class="item-buy">
         {{page.buy_html}}
