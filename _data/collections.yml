@@ -1,6 +1,8 @@
 ---
 - name: 750 sq ft — Marbled Ornaments
   items:
+  - _store/black-white-red-green-blue-white.md
+  - _store/blue-green-yellow-white.md
   - _store/blue-yellow-white-1.md
   - _store/blue-green-white.md
   - _store/blue-yellow-white.md
