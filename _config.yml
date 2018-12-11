@@ -22,6 +22,7 @@ collections:
     permalink: /store/:path/
   collection:
     output: false
+    perrmalink: /collection/:path/
 
 defaults:
   - scope:
