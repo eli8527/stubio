@@ -3,10 +3,18 @@ title: Unique Clothes T-Shirt Orange/White (M)
 date: 2018-12-11 05:20:34 +0000
 images:
 - "/uploads/2.JPG"
-description: |-
-  stubio's first clothing item, the Unique Clothes T-Shirt is produced in a handful of color combinations based on UNIQLO's packaged T-Shirts. These color pairs are hand picked and sewn and are produced in an initial limited edition of four. They are an exercise in found color combinations, but as clothing. We suggest <a href="http://kmbag.nl">KMbag</a> as a complementary accessory for the shirt.
-
-  The Unique Clothes are based on clothing purchasable at UNIQLO. Originally founded in 1984 as "Unique Clothing Warehouse," an administrative error caused the firm to be registered not as UNICLO but instead as UNIQLO. Since then, the fast retail, fast fashion company has gone on to produce clothing that is anything but unique. In fact, mass production and mechanization has perhaps led to a new definition of the term unique. Studio B is interested in perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat unique.
+description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is produced
+  in a handful of color combinations based on UNIQLO's packaged T-Shirts. These color
+  pairs are hand picked and sewn and are produced in an initial limited edition of
+  four. They are an exercise in found color combinations, but as clothing. We suggest
+  <a href="kmbag.nl" title="">KMbag</a> as a complementary accessory for the shirt.</p><p>The
+  Unique Clothes are based on clothing purchasable at UNIQLO. Originally founded in
+  1984 as "Unique Clothing Warehouse," an administrative error caused the firm to
+  be registered not as UNICLO but instead as UNIQLO. Since then, the fast retail,
+  fast fashion company has gone on to produce clothing that is anything but unique.
+  In fact, mass production and mechanization has perhaps led to a new definition of
+  the term unique. Studio B is interested in perusing UNIQLO's various wares and creating
+  clothing that is perhaps, somewhat unique.</p>
 price: 35
 buy_html: |-
   <div id='product-component-1544505648297'></div>
