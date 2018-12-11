@@ -1,4 +1,5 @@
 ---
-title: default
+title: Home
 layout: page
+
 ---
