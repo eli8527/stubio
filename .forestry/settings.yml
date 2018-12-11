@@ -12,6 +12,8 @@ sections:
   label: Collection
   create: all
   match: "**/*"
+  templates:
+  - collection
 - type: directory
   path: _store
   label: Store
