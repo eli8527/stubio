@@ -4,8 +4,8 @@ hide_body: true
 is_partial: false
 fields:
 - type: textarea
-  name: content
-  label: Content
+  name: header
+  label: Header
   config:
     required: false
     wysiwyg: true
