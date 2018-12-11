@@ -13,9 +13,9 @@ fields:
   name: description
   label: Description
   config:
-    wysiwyg: false
+    wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
 - type: number
   name: price
   label: Price
