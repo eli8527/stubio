@@ -2,7 +2,34 @@
 layout: default
 ---
 <div id="container">
-<div class="content">
+<div class="header">
   <p><b><a href="/">{{site.title}}</a></b> {{page.header}}</p>
+</div>
+<div class="collections">
+  {% for collection in site.data.collections %}
+  <div class="collection">
+    <div class="collection-name">{{collection.name}} collection</div>
+    <div class="collection-items">
+      {% for item_meta in site.store | where:"path", collection.items %}
+        <div class="collection-item">
+          <a href="{{item_meta.url}}">
+            <div class="item-image">
+              <img src="{{item_meta.images[0]}}">
+            </div>
+            <div class="item-title">
+              {{item_meta.title}}
+            </div>
+            <div class="item-cost">
+              ${{item_meta.price}}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="footer">
+  {{page.footer}}
 </div>
 </div>

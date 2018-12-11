@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div id="container">
+  <div class="header">
+    <p><b><a href="/">{{site.title}}</a></b></p>
+  </div>
+  <div class="item-information">
+    <div class="column">
+      {% for image in page.images %}
+        <img src="{{image}}">
+      {% endfor %}
+    </div>
+    <div class="column">
+      <div class="item-name">
+        {{page.title}}
+      </div>
+      <div class="item-price">
+        ${{page.price}}
+      </div>
+      <div class="item-buy">
+        {{page.buy_html}}
+      </div>
+      <div class="item-description">
+        {{page.description}}
+      </div>
+    </div>
+  </div>
+</div>

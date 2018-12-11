@@ -29,6 +29,11 @@ body {
   margin: 10px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -40,4 +45,52 @@ a:visited {
 
 a:hover {
   color: #f00;
+}
+
+.header {
+  margin-bottom: 1em;
+}
+
+.footer {
+  margin-top: 1em;
+}
+
+.collection {
+  margin-bottom: 1em;
+
+  .collection-name {
+    font-style: italic;
+  }
+
+  .collection-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+      .collection-item {
+        width: 200px;
+        margin-right: 10px;
+
+        .item-image > img {
+
+        }
+      }
+  }
+}
+
+.item-information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .column {
+      width: 500px;
+      max-width: 100%;
+      margin-right: 10px;
+      margin-bottom: 1em;
+
+      .item-description {
+        margin-top: 1em;
+      }
+  }
 }
