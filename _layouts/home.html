@@ -13,7 +13,7 @@ layout: default
     <div class="collection-items">
       {% for item in collection.items %}
           {% for item_meta in site.store %}
-            {% if item_meta.path == item %}
+            {% if item_meta.path == item and item_meta.hidden != true %}
             <div class="collection-item">
               <a href="{{item_meta.url}}">
                 <div class="item-image">
@@ -23,7 +23,11 @@ layout: default
                   {{item_meta.title}}
                 </div>
                 <div class="item-cost">
-                  ${{item_meta.price}}
+                  {% if item_meta.out_of_stock %}
+                    Out of stock
+                  {% else %}
+                    ${{item_meta.price}}
+                  {% endif %}
                 </div>
               </a>
             </div>
