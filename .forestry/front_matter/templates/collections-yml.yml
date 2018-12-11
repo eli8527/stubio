@@ -20,8 +20,9 @@ fields:
       config:
         use_select: true
         source:
-          type: documents
+          type: pages
           section: store
+          file: _store/unique-clothes-t-shirt-orange-white-m.md
       label: Item Selection
       name: item_selection
   hidden: false
