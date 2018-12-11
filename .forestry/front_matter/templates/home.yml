@@ -19,10 +19,11 @@ fields:
     name: collection
     config:
       source:
-        type: documents
+        type: pages
         section: collection
       required: true
     label: Collection
+    default: _collection/750.md
 - type: textarea
   name: footer
   label: Footer
