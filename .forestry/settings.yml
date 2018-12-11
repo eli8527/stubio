@@ -12,6 +12,8 @@ sections:
   label: Store
   create: all
   match: "**/*"
+  templates:
+  - item
 - type: document
   path: _data/collections.yml
   label: Collections
