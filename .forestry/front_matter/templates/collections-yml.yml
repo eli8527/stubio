@@ -1,7 +1,7 @@
 ---
-label: collections.yml
-hide_body: 
-is_partial: 
+label: Collections
+hide_body: false
+is_partial: false
 fields:
 - name: Collections
   label: Collections
@@ -12,5 +12,13 @@ fields:
     type: text
     hidden: false
     default: ''
+  - type: list
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: store
+    label: Item
+    name: item
   hidden: false
   default: ''
