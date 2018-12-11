@@ -11,23 +11,6 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-- type: field_group_list
-  label: Collection List
-  name: collection_list
-  fields:
-  - type: text
-    name: collection_name
-    label: Collection Name
-  - type: select
-    name: collection
-    config:
-      source:
-        type: pages
-        section: collection
-        file: _collection/750.md
-      required: true
-    label: Collection
-    default: _collection/750.md
 - type: textarea
   name: footer
   label: Footer
