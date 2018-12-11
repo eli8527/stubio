@@ -1,0 +1,25 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group_list
+  label: Collection List
+  name: collection_list
+  fields:
+  - type: select
+    name: collection
+    config:
+      source:
+        type: documents
+        section: collection
+      required: true
+    label: Collection
