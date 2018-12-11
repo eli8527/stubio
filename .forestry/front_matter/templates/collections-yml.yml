@@ -12,14 +12,9 @@ fields:
     type: text
     hidden: false
     default: ''
-  - type: list
-    config:
-      use_select: true
-      source:
-        type: pages
-        section: store
-    label: Item
-    name: item
+  - type: field_group_list
+    label: Items
+    name: items
   hidden: false
   default: ''
 pages:
