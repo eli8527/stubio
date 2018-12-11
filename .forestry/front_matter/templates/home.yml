@@ -8,7 +8,7 @@ fields:
   label: Header
   config:
     required: false
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: html-blocks
 - type: textarea
