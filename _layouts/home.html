@@ -10,20 +10,24 @@ layout: default
   <div class="collection">
     <div class="collection-name">{{collection.name}} collection</div>
     <div class="collection-items">
-      {% for item_meta in site.store | where:"path", collection.items %}
-        <div class="collection-item">
-          <a href="{{item_meta.url}}">
-            <div class="item-image">
-              <img src="{{item_meta.images[0].image_url}}">
+      {% for item in collection.items %}
+          {% for item_meta in site.store %}
+            {% if item_meta.path == item %}
+            <div class="collection-item">
+              <a href="{{item_meta.url}}">
+                <div class="item-image">
+                  <img src="{{item_meta.images[0].image_url}}">
+                </div>
+                <div class="item-title">
+                  {{item_meta.title}}
+                </div>
+                <div class="item-cost">
+                  ${{item_meta.price}}
+                </div>
+              </a>
             </div>
-            <div class="item-title">
-              {{item_meta.title}}
-            </div>
-            <div class="item-cost">
-              ${{item_meta.price}}
-            </div>
-          </a>
-        </div>
+            {% endif %}
+          {% endfor %}
       {% endfor %}
     </div>
   </div>
