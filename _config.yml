@@ -20,6 +20,8 @@ collections:
   store:
     output: true
     permalink: /store/:path/
+  collection:
+    output: false
 
 defaults:
   - scope:
