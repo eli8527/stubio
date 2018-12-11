@@ -15,7 +15,7 @@ fields:
   name: footer
   label: Footer
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
 pages:
