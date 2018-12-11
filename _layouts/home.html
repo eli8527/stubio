@@ -17,7 +17,20 @@ layout: default
             <div class="collection-item">
               <a href="{{item_meta.url}}">
                 <div class="item-image">
-                  <img src="{{item_meta.images[0].image_url}}">
+                  {% assign exploded = item_meta.images[0].image_url | split: "." %}
+                  {% assign sizeMinus = exploded | size | minus: 2 %}
+                  {% assign smallImg = '' %}
+                  {% for explode in exploded %}
+                    {% assign smallImg = smallImg | append: explode %}
+                    {% if forloop.index0 == sizeMinus %}
+                      {% assign smallImg = smallImg | append: '_medium' %}
+                    {% endif %}
+                    {% if forloop.last != true %}
+                      {% assign smallImg = smallImg | append: '.' %}
+                    {% endif %}
+                  {% endfor %}
+
+                  <img src="{{smallImg}}">
                 </div>
                 <div class="item-title">
                   {{item_meta.title}}
