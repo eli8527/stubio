@@ -16,8 +16,8 @@ fields:
   name: collection_list
   fields:
   - type: text
-    name: collection
-    label: Collection
+    name: collection_name
+    label: Collection Name
   - type: select
     name: collection
     config:
