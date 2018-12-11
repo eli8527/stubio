@@ -1,6 +1,6 @@
 ---
 label: Item
-hide_body: false
+hide_body: true
 is_partial: false
 fields:
 - type: text
@@ -16,3 +16,6 @@ fields:
 - type: number
   name: price
   label: Price
+- type: textarea
+  name: buy_html
+  label: Buy HTML
