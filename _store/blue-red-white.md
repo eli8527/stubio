@@ -2,7 +2,7 @@
 title: Blue, Red (White)
 date: 2018-12-11 09:06:21 +0000
 images:
-- image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/w_blue_green_red_1.jpg
+- image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/w_blue_red_1.jpg
 description: <p>Measures 2.6"</p><p>Hand marbled ornament. For those who want a little
   bit more fluid dynamics in their holiday festivities. Each is unique and irreproducible.
   </p>
