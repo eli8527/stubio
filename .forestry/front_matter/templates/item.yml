@@ -26,6 +26,9 @@ fields:
 - type: textarea
   name: buy_html
   label: Buy HTML
+- type: boolean
+  name: hidden
+  label: Hidden
 pages:
 - _store/unique-clothes-t-shirt-white-navy-m.md
 - _store/unique-clothes-turtleneck-yellow-purple-s.md
