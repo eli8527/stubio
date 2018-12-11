@@ -23,3 +23,10 @@ fields:
         section: collection
       required: true
     label: Collection
+- type: textarea
+  name: footer
+  label: Footer
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
