@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'stubio-new-roman'; /*a name to be used later*/
+  font-weight: normal;
   src: url('../fonts/StubioNewRoman-Regular.woff'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'stubio-new-roman'; /*a name to be used later*/
+  font-weight: bold;
+  src: url('../fonts/StubioNewRoman-Bold.woff'); /*URL to font*/
 }
 
 body, h1, h2, h3, h4, h5, h6,
@@ -16,4 +23,21 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   font-variant-ligatures: none;
+}
+
+#container {
+  margin: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #f00;
 }
