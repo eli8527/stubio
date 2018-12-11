@@ -27,8 +27,8 @@ fields:
   name: buy_html
   label: Buy HTML
 - type: boolean
-  name: sold
-  label: Sold
+  name: sold_out
+  label: Sold Out
 - type: boolean
   name: hidden
   label: Hidden
