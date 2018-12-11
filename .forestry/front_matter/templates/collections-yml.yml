@@ -12,19 +12,14 @@ fields:
     type: text
     hidden: false
     default: ''
-  - type: field_group_list
-    label: Items
+  - type: list
     name: items
-    fields:
-    - type: list
-      config:
-        use_select: true
-        source:
-          type: pages
-          section: store
-          file: _store/unique-clothes-t-shirt-orange-white-m.md
-      label: Item Selection
-      name: item_selection
+    label: Items
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: store
   hidden: false
   default: ''
 pages:
