@@ -56,7 +56,6 @@ a:hover {
 }
 
 .collection {
-  margin-bottom: 1em;
 
   .collection-name {
     font-style: italic;
@@ -70,6 +69,8 @@ a:hover {
       .collection-item {
         width: 200px;
         margin-right: 10px;
+        box-sizing: border-box;
+        margin-bottom: 1em;
 
         .item-image > img {
 
