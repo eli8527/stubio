@@ -13,7 +13,7 @@ fields:
   name: description
   label: Description
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
 - type: number
