@@ -59,6 +59,5 @@ buy_html: |-
       /*]]>*/
       </script>
 show: false
-published: false
 
 ---
