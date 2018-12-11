@@ -22,3 +22,5 @@ fields:
 - type: textarea
   name: buy_html
   label: Buy HTML
+pages:
+- _store/unique-clothes-t-shirt-orange-white-m.md
