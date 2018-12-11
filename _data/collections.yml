@@ -1,7 +1,11 @@
 ---
-- name: 750 sq ft
+- name: 750 sq ft – Unique Clothes
   items:
   - _store/unique-clothes-t-shirt-orange-white-m.md
   - _store/unique-clothes-t-shirt-white-navy-m.md
   - _store/unique-clothes-t-shirt-black-orange-m.md
   - _store/unique-clothes-t-shirt-navy-black-m.md
+  - _store/unique-clothes-t-shirt-dark-grey-grey-s.md
+  - _store/unique-clothes-t-shirt-yellow-navy-s.md
+  - _store/unique-clothes-t-shirt-orange-dark-grey-s.md
+  - _store/unique-clothes-t-shirt-grey-yellow-s.md
