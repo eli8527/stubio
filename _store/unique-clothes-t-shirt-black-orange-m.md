@@ -12,8 +12,8 @@ description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is prod
   as "Unique Clothing Warehouse," an administrative error caused the firm to be registered
   not as UNICLO but instead as UNIQLO. Since then, the fast retail, fast fashion company
   has gone on to produce clothing that is anything but unique. In fact, mass production
-  and mechanization has perhaps led to a new definition of the term unique. Studio
-  B is interested in perusing UNIQLO's various wares and creating clothing that is
+  and mechanization has perhaps led to a new definition of the term unique. stubio
+  is interested in perusing UNIQLO's various wares and creating clothing that is
   perhaps, somewhat unique.</p>
 price: 35
 buy_html: |-

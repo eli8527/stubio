@@ -12,7 +12,7 @@ description: <p>The Unique Clothes Turtleneck is produced in a handful of color 
   an administrative error caused the firm to be registered not as UNICLO but instead
   as UNIQLO. Since then, the fast retail, fast fashion company has gone on to produce
   clothing that is anything but unique. In fact, mass production and mechanization
-  has perhaps led to a new definition of the term unique. Studio B is interested in
+  has perhaps led to a new definition of the term unique. stubio is interested in
   perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
   unique.</p><p>"Always evolving, always experimenting."</p>
 price: 50

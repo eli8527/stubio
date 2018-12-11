@@ -2,21 +2,7 @@
 title: Unique Clothes T-Shirt Orange/White (M)
 date: 2018-12-11 05:20:34 +0000
 images:
-- '0': "/"
-  '1': u
-  '2': p
-  '3': l
-  '4': o
-  '5': a
-  '6': d
-  '7': s
-  '8': "/"
-  '9': 2
-  '10': "."
-  '11': J
-  '12': P
-  '13': G
-  image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/m_orange_white.jpg
+- image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/m_orange_white.jpg
 description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is produced
   in a handful of color combinations based on UNIQLO's packaged T-Shirts. These color
   pairs are hand picked and sewn and are produced in an initial limited edition. They
@@ -26,8 +12,8 @@ description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is prod
   as "Unique Clothing Warehouse," an administrative error caused the firm to be registered
   not as UNICLO but instead as UNIQLO. Since then, the fast retail, fast fashion company
   has gone on to produce clothing that is anything but unique. In fact, mass production
-  and mechanization has perhaps led to a new definition of the term unique. Studio
-  B is interested in perusing UNIQLO's various wares and creating clothing that is
+  and mechanization has perhaps led to a new definition of the term unique. stubio
+  is interested in perusing UNIQLO's various wares and creating clothing that is
   perhaps, somewhat unique.</p>
 price: 35
 buy_html: |-
