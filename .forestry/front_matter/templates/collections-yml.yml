@@ -22,3 +22,5 @@ fields:
     name: item
   hidden: false
   default: ''
+pages:
+- _data/collections.yml
