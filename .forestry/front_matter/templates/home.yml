@@ -15,6 +15,9 @@ fields:
   label: Collection List
   name: collection_list
   fields:
+  - type: text
+    name: collection
+    label: Collection
   - type: select
     name: collection
     config:
