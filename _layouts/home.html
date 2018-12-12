@@ -5,6 +5,7 @@ layout: default
 <div class="header">
   {{page.header}}
 </div>
+
 <div class="collections">
   {% for collection in site.data.collections %}
   <div class="collection">
@@ -52,6 +53,7 @@ layout: default
   {% endfor %}
 </div>
 <div class="footer">
+  {% include mailchimp.html %}
   {{page.footer}}
 </div>
 </div>
