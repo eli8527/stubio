@@ -1,5 +1,5 @@
 ---
-title: Unique Clothes T-Shirt Yellow/Navy (S)
+title: Unique Clothes T-Shirt Yellow/Navy (Unisex S)
 date: 2018-12-11 06:35:57 +0000
 images:
 - image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/s_yellow_navy.jpg
@@ -13,8 +13,8 @@ description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is prod
   not as UNICLO but instead as UNIQLO. Since then, the fast retail, fast fashion company
   has gone on to produce clothing that is anything but unique. In fact, mass production
   and mechanization has perhaps led to a new definition of the term unique. stubio
-  is interested in perusing UNIQLO's various wares and creating clothing that is
-  perhaps, somewhat unique.</p>
+  is interested in perusing UNIQLO's various wares and creating clothing that is perhaps,
+  somewhat unique.</p>
 price: 35
 buy_html: |-
   <div id='product-component-1544516809474'></div>
@@ -59,5 +59,7 @@ buy_html: |-
       /*]]>*/
       </script>
 show: false
+sold_out: false
+hidden: false
 
 ---
