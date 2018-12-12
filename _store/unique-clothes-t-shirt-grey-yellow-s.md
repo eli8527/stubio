@@ -59,7 +59,7 @@ buy_html: |-
       /*]]>*/
       </script>
 show: false
-sold_out: false
+sold_out: true
 hidden: false
 
 ---
