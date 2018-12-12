@@ -1,5 +1,5 @@
 ---
-title: Black, White, Blue, Green, Yellow, Red
+title: "(Mini) Black, White, Blue, Green, Yellow, Red"
 date: 2018-12-11 09:06:21 +0000
 images:
 - image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/w_red_1.jpg
