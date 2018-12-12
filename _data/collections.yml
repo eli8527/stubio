@@ -1,8 +1,39 @@
 ---
 - name: 750 sq ft — Marbled Ornaments
   items:
-  - _store/blue-red-white.md
   - _store/blue-yellow-white.md
+  - _store/black-blue-white-1.md
+  - _store/black-blue-white.md
+  - _store/black-green-white.md
+  - _store/black-red-white-1.md
+  - _store/black-red-white.md
+  - _store/black-white-clear.md
+  - _store/black-white-red-green-blue-white.md
+  - _store/black-white-silver.md
+  - _store/black-yellow-white.md
+  - _store/blue-green-white.md
+  - _store/blue-green-yellow-white.md
+  - _store/blue-red-white-yellow-clear.md
+  - _store/blue-red-white.md
+  - _store/blue-red-yellow-white.md
+  - _store/blue-yellow-white-1.md
+  - _store/blue-yellow-white.md
+  - _store/green-red-clear.md
+  - _store/green-red-white-1.md
+  - _store/green-red-white.md
+  - _store/green-white-yellow-silver.md
+  - _store/green-yellow-white.md
+  - _store/red-green-blue-clear.md
+  - _store/red-green-blue-white.md
+  - _store/red-white-clear.md
+  - _store/red-white-silver.md
+  - _store/white-black-blue-red-yellow-silver.md
+  - _store/white-black-blue-yellow-white.md
+  - _store/white-blue-white.md
+  - _store/white-green-white.md
+  - _store/white-red-white-1.md
+  - _store/white-red-white.md
+  - _store/white-yellow-white.md
 - name: 750 sq ft — Unique Clothes
   items:
   - _store/unique-clothes-t-shirt-orange-white-m.md
