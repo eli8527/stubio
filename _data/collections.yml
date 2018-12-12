@@ -49,4 +49,5 @@
   description: "<p></p>"
 - name: 750 sq ft — Marbled Ornaments (Mini)
   items:
+  - _store/blue-red-green-white-yellow-black.md
   - _store/black-white-blue-green-yellow-red.md
