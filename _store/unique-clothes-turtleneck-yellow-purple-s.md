@@ -1,5 +1,5 @@
 ---
-title: Unique Clothes Turtleneck Yellow/Purple (S)
+title: Unique Clothes Turtleneck Yellow/Purple (Unisex S)
 date: 2018-12-11 06:35:57 +0000
 images:
 - image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/s_turtleneck.jpg
@@ -59,5 +59,7 @@ buy_html: |-
       /*]]>*/
       </script>
 show: false
+sold_out: false
+hidden: false
 
 ---
