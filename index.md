@@ -11,8 +11,8 @@ header: <p><a href="/" title=""><strong>stubio</strong></a> Hello. stubio is the
   new collections, again based on the area in which we work. Listen to some <a href="https://www.youtube.com/watch?v=ZXJWO2FQ16c"
   title=""><strong>Steve Reich</strong></a> while you look around. Check back for
   new wares weekly.<strong> </strong><a href="http://eepurl.com/ga0fFv" title=""><strong>Sign
-  up for infrequent emails!</strong></a><strong> </strong>Order this week and we will
-  make sure it gets to you before Christmas! </p>
+  up for updates!</strong></a><strong> </strong>Order this week and we will make sure
+  it gets to you before Christmas!</p>
 footer: <p>©2018 stubio. You can contact us at <a href="mailto:stubiostubio@gmail.com"
   title="">stubiostubio [at] gmail.com</a>. <a href="http://eepurl.com/ga0fFv" title=""><strong>Subscribe.</strong></a></p>
 
