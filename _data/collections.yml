@@ -1,7 +1,4 @@
 ---
-- name: 750 sq ft — Marbled Ornaments (Mini)
-  items:
-  - _store/black-white-blue-green-yellow-red.md
 - name: 750 sq ft — Marbled Ornaments
   items:
   - _store/blue-yellow-white.md
@@ -50,3 +47,6 @@
   - _store/unique-clothes-turtleneck-yellow-purple-s.md
   - _store/unique-clothes-sweatshirt-blue-grey-l.md
   description: "<p></p>"
+- name: 750 sq ft — Marbled Ornaments (Mini)
+  items:
+  - _store/black-white-blue-green-yellow-red.md
