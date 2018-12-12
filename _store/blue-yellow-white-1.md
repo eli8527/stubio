@@ -49,5 +49,7 @@ buy_html: |-
       })();
       /*]]>*/
       </script>
+sold_out: true
+hidden: false
 
 ---
