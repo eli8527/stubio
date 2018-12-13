@@ -15,7 +15,7 @@ layout: default
       {% for item in collection.items %}
           {% for item_meta in site.store %}
             {% if item_meta.path == item and item_meta.hidden != true %}
-            <div class="collection-item">
+            <div class="collection-item {% if item_meta.sold_out %}sold-out{% endif %}">
               <a href="{{item_meta.url}}">
                 <div class="item-image">
                   {% assign exploded = item_meta.images[0].image_url | split: "." %}
