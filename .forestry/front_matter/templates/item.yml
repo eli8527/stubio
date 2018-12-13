@@ -34,6 +34,7 @@ fields:
   label: Hidden
 pages:
 - _store/red-white.md
+- _store/red-white-yellow.md
 - _store/white-blue.md
 - _store/blue-yellow.md
 - _store/yellow-blue.md
