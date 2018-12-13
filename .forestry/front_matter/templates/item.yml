@@ -33,6 +33,7 @@ fields:
   name: hidden
   label: Hidden
 pages:
+- _store/white-blue.md
 - _store/blue-yellow.md
 - _store/yellow-blue.md
 - _store/blue-red.md
