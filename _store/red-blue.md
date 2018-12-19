@@ -55,6 +55,6 @@ buy_html: |-
       </script>
 out_of_stock: true
 hidden: false
-sold_out: false
+sold_out: true
 
 ---
