@@ -55,7 +55,7 @@ buy_html: |-
       })();
       /*]]>*/
       </script>
-sold_out: false
+sold_out: true
 hidden: false
 date: 2018-12-20 06:30:58 +0000
 
