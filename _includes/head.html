@@ -2,28 +2,30 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link href="/img/asteriskkk.png" rel="icon" type="image/x-icon" /> -->
 
 
   <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   {% if page.images %}
     <meta property="twitter:card" content="summary">
     <meta property="twitter:image" content="{{page.images[0].image_url}}">
     <meta property="og:image" content="{{page.images[0].image_url}}">
-  {% endif page.images %}
+  {% endif %}
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   {% if page.description %}
-    <meta property="og:description" content="{{ page.description | strip_html | strip_newlines |  escape | truncate: 160}}">
-    <meta name="abstract" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160}}">
-    <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160}}">
+    <meta property="og:description" content="{{ page.description | strip_html | strip_newlines |  escape | truncate: 160 }}">
+    <meta name="abstract" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160 }}">
+    <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160 }}">
+  {% elsif page.header %}
+    <meta property="og:description" content="{{ page.header | strip_html | strip_newlines |  escape | truncate: 160 }}">
+    <meta name="abstract" content="{{ page.header | strip_html | strip_newlines |  escape | truncate: 160 }}">
+    <meta name="description" content="{{ page.header | strip_html | strip_newlines |  escape | truncate: 160 }}">
   {% else %}
     <meta property="og:description" content="{{ site.description }}">
     <meta name="abstract" content="{{ site.description }}">
     <meta name="description" content="{{ site.description }}">
-  {% endif page.description %}
+  {% endif %}
 
   <meta property="og:type" content="website">
 
