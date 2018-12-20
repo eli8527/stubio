@@ -15,7 +15,7 @@ description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is prod
   and mechanization has perhaps led to a new definition of the term unique. stubio
   is interested in perusing UNIQLO's various wares and creating clothing that is perhaps,
   somewhat unique.</p>
-price: 35
+price: 25
 buy_html: |-
   <div id='product-component-1544516350284'></div>
       <script type="text/javascript">

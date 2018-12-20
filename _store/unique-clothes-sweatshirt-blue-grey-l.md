@@ -15,7 +15,7 @@ description: <p>The Unique Clothes Sweatshirt is produced in a handful of color 
   has perhaps led to a new definition of the term unique. stubio is interested in
   perusing UNIQLO's various wares and creating clothing that is perhaps, somewhat
   unique.</p><p>"Always evolving, always experimenting."</p>
-price: 50
+price: 40
 buy_html: |-
   <div id='product-component-1544517921361'></div>
       <script type="text/javascript">
