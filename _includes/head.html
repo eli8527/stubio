@@ -16,9 +16,9 @@
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   {% if page.description %}
-    <meta property="og:description" content="{{ page.description | strip_html | strip_newlines | truncate: 160}}">
-    <meta name="abstract" content="{{ page.description | strip_html | strip_newlines | truncate: 160}}">
-    <meta name="description" content="{{ page.description | strip_html | strip_newlines | truncate: 160}}">
+    <meta property="og:description" content="{{ page.description | strip_html | strip_newlines |  escape | truncate: 160}}">
+    <meta name="abstract" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160}}">
+    <meta name="description" content="{{ page.description | strip_html | strip_newlines | escape | truncate: 160}}">
   {% else %}
     <meta property="og:description" content="{{ site.description }}">
     <meta name="abstract" content="{{ site.description }}">
