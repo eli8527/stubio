@@ -2,7 +2,16 @@
 title: Women Crew Neck Long Sleeve T-Shirt Yellow/Navy (S)
 images:
 - image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/DSF2125.JPG
-description: ''
+description: <p>Unique Clothes Long Sleeve T-Shirt is produced in a handful of color
+  combinations based. Perfect for layering during the cold, or by itself during milder
+  temperatures. Standard fit for women's size small (33–35in bust). 96% Cotton, 4%
+  Spandex.</p><p>The Unique Clothes are based on clothing purchasable at UNIQLO. Originally
+  founded in 1984 as "Unique Clothing Warehouse," an administrative error caused the
+  firm to be registered not as UNICLO but instead as UNIQLO. Since then, the fast
+  retail, fast fashion company has gone on to produce clothing that is anything but
+  unique. In fact, mass production and mechanization has perhaps led to a new definition
+  of the term unique. stubio is interested in perusing UNIQLO's various wares and
+  creating clothing that is perhaps, somewhat unique.</p>
 price: 28
 buy_html: |-
   <div id='product-component-1545287446267'></div>
