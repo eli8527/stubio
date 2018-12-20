@@ -58,6 +58,5 @@ buy_html: |-
 sold_out: false
 hidden: false
 date: 2018-12-20 06:30:58 +0000
-published: false
 
 ---
