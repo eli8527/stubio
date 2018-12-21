@@ -11,10 +11,10 @@ header: <p><a href="/" title=""><strong>stubio</strong></a> Hello. stubio is the
   title=""><strong>Steve Reich</strong></a> while you look around. Check back for
   new wares weekly.<strong> </strong><a href="http://eepurl.com/ga0fFv" title=""><strong>Sign
   up for updates!</strong></a><strong> </strong>We just made some long sleeve shirts
-  and blouses which are now up!! USE COUPON CODE <strong>NOTFOREVER</strong> FOR 40%
-  OFF ALL ORNAMENTS. WE WANT THEM GONE! Finally, we will be in California escaping
-  the cold east coast until after New Years, so there may be a delay in shipping of
-  orders.</p>
+  and blouses which are now up!! &lt;!--USE COUPON CODE <strong>NOTFOREVER</strong>
+  FOR 40% OFF ALL ORNAMENTS. WE WANT THEM GONE! Finally, we will be in California
+  escaping the cold east coast until after New Years, so there may be a delay in shipping
+  of orders.--&gt;</p>
 footer: <p>©2018 stubio. You can contact us at <a href="mailto:stubiostubio@gmail.com"
   title="">stubiostubio [at] gmail.com</a>. <a href="http://eepurl.com/ga0fFv" title=""><strong>Subscribe.</strong></a><strong>
   </strong>stubio not studio! But seriously, listen to that Steve Reich piece. </p>
