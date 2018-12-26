@@ -1,4 +1,26 @@
 ---
+- name: 750 sq ft — Unique Clothes
+  items:
+  - _store/women-drape-3-4-sleeve-blouse-maroon-navy-s.md
+  - _store/women-drape-3-4-sleeve-blouse-off-white-maroon-s.md
+  - _store/women-drape-3-4-sleeve-blouse-navy-off-white-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-magenta-dark-green-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-dark-green-yellow-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-pink-magenta-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-blue-pink-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-navy-blue-s.md
+  - _store/women-crew-neck-long-sleeve-t-shirt-yellow-navy-s.md
+  - _store/unique-clothes-t-shirt-orange-white-m.md
+  - _store/unique-clothes-t-shirt-white-navy-m.md
+  - _store/unique-clothes-t-shirt-black-orange-m.md
+  - _store/unique-clothes-t-shirt-navy-black-m.md
+  - _store/unique-clothes-t-shirt-dark-grey-grey-s.md
+  - _store/unique-clothes-t-shirt-yellow-navy-s.md
+  - _store/unique-clothes-t-shirt-orange-dark-grey-s.md
+  - _store/unique-clothes-t-shirt-grey-yellow-s.md
+  - _store/unique-clothes-turtleneck-yellow-purple-s.md
+  - _store/unique-clothes-sweatshirt-blue-grey-l.md
+  description: "<p></p>"
 - name: 750 sq ft — Marbled Ornaments (Mini)
   items:
   - _store/white-yellow-red.md
@@ -54,25 +76,3 @@
   - _store/white-red-white-1.md
   - _store/white-red-white.md
   - _store/white-yellow-white.md
-- name: 750 sq ft — Unique Clothes
-  items:
-  - _store/women-drape-3-4-sleeve-blouse-maroon-navy-s.md
-  - _store/women-drape-3-4-sleeve-blouse-off-white-maroon-s.md
-  - _store/women-drape-3-4-sleeve-blouse-navy-off-white-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-magenta-dark-green-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-dark-green-yellow-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-pink-magenta-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-blue-pink-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-navy-blue-s.md
-  - _store/women-crew-neck-long-sleeve-t-shirt-yellow-navy-s.md
-  - _store/unique-clothes-t-shirt-orange-white-m.md
-  - _store/unique-clothes-t-shirt-white-navy-m.md
-  - _store/unique-clothes-t-shirt-black-orange-m.md
-  - _store/unique-clothes-t-shirt-navy-black-m.md
-  - _store/unique-clothes-t-shirt-dark-grey-grey-s.md
-  - _store/unique-clothes-t-shirt-yellow-navy-s.md
-  - _store/unique-clothes-t-shirt-orange-dark-grey-s.md
-  - _store/unique-clothes-t-shirt-grey-yellow-s.md
-  - _store/unique-clothes-turtleneck-yellow-purple-s.md
-  - _store/unique-clothes-sweatshirt-blue-grey-l.md
-  description: "<p></p>"
