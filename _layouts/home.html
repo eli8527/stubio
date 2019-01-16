@@ -8,48 +8,50 @@ layout: default
 
 <div class="collections">
   {% for collection in site.data.collections %}
-  <div class="collection">
-    <div class="collection-name">{{collection.name}}</div>
-    <!-- <div class="collection-description">{{collection.description}}</div> -->
-    <div class="collection-items">
-      {% for item in collection.items %}
-          {% for item_meta in site.store %}
-            {% if item_meta.path == item and item_meta.hidden != true %}
-            <div class="collection-item {% if item_meta.sold_out %}sold-out{% endif %}">
-              <a href="{{item_meta.url}}">
-                <div class="item-image">
-                  {% assign exploded = item_meta.images[0].image_url | split: "." %}
-                  {% assign sizeMinus = exploded | size | minus: 2 %}
-                  {% assign smallImg = '' %}
-                  {% for explode in exploded %}
-                    {% assign smallImg = smallImg | append: explode %}
-                    {% if forloop.index0 == sizeMinus %}
-                      {% assign smallImg = smallImg | append: '_medium' %}
-                    {% endif %}
-                    {% if forloop.last != true %}
-                      {% assign smallImg = smallImg | append: '.' %}
-                    {% endif %}
-                  {% endfor %}
+    {% if collection.show %}
+      <div class="collection">
+        <div class="collection-name">{{collection.name}}</div>
+        <!-- <div class="collection-description">{{collection.description}}</div> -->
+        <div class="collection-items">
+          {% for item in collection.items %}
+              {% for item_meta in site.store %}
+                {% if item_meta.path == item and item_meta.hidden != true %}
+                <div class="collection-item {% if item_meta.sold_out %}sold-out{% endif %}">
+                  <a href="{{item_meta.url}}">
+                    <div class="item-image">
+                      {% assign exploded = item_meta.images[0].image_url | split: "." %}
+                      {% assign sizeMinus = exploded | size | minus: 2 %}
+                      {% assign smallImg = '' %}
+                      {% for explode in exploded %}
+                        {% assign smallImg = smallImg | append: explode %}
+                        {% if forloop.index0 == sizeMinus %}
+                          {% assign smallImg = smallImg | append: '_medium' %}
+                        {% endif %}
+                        {% if forloop.last != true %}
+                          {% assign smallImg = smallImg | append: '.' %}
+                        {% endif %}
+                      {% endfor %}
 
-                  <img src="{{smallImg}}">
+                      <img src="{{smallImg}}">
+                    </div>
+                    <div class="item-title">
+                      {{item_meta.title}}
+                    </div>
+                    <div class="item-cost">
+                      {% if item_meta.sold_out %}
+                        <s>${{item_meta.price}}</s> Sold
+                      {% else %}
+                        ${{item_meta.price}}
+                      {% endif %}
+                    </div>
+                  </a>
                 </div>
-                <div class="item-title">
-                  {{item_meta.title}}
-                </div>
-                <div class="item-cost">
-                  {% if item_meta.sold_out %}
-                    <s>${{item_meta.price}}</s> Sold
-                  {% else %}
-                    ${{item_meta.price}}
-                  {% endif %}
-                </div>
-              </a>
-            </div>
-            {% endif %}
+                {% endif %}
+              {% endfor %}
           {% endfor %}
-      {% endfor %}
-    </div>
-  </div>
+        </div>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
 <div class="footer">
