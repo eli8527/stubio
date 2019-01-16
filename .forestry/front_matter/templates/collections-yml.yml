@@ -12,13 +12,9 @@ fields:
     type: text
     hidden: false
     default: ''
-  - type: textarea
-    label: Description
-    name: description
-    config:
-      wysiwyg: true
-      schema:
-        format: html-blocks
+  - type: boolean
+    name: show
+    label: Show
   - type: list
     name: items
     label: Items
