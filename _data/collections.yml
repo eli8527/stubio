@@ -21,6 +21,7 @@
   - _store/unique-clothes-turtleneck-yellow-purple-s.md
   - _store/unique-clothes-sweatshirt-blue-grey-l.md
   description: "<p></p>"
+  show: true
 - name: 750 sq ft — Marbled Ornaments (Mini)
   items:
   - _store/white-yellow-red.md
@@ -41,6 +42,7 @@
   - _store/red-green-blue-yellow-black-white.md
   - _store/green-black-blue-red-white-yellow.md
   - _store/blue-red-green-white-yellow-black.md
+  show: false
 - name: 750 sq ft — Marbled Ornaments
   items:
   - _store/blue-yellow-white.md
@@ -76,3 +78,4 @@
   - _store/white-red-white-1.md
   - _store/white-red-white.md
   - _store/white-yellow-white.md
+  show: false
