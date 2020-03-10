@@ -1,6 +1,6 @@
 ---
 title: Unique Clothes T-Shirt Black/Orange (Unisex M)
-date: 2018-12-11 06:35:57 +0000
+date: '2018-12-11T06:35:57.000+00:00'
 images:
 - image_url: https://cdn.shopify.com/s/files/1/0100/8418/8224/products/m_black_orange.jpg
 description: <p>stubio's first clothing item, the Unique Clothes T-Shirt is produced
@@ -59,7 +59,7 @@ buy_html: |-
       /*]]>*/
       </script>
 show: false
-sold_out: false
+sold_out: true
 hidden: false
 
 ---
